@@ -1,6 +1,4 @@
-<p align="center"><img src="assets/brk-logo.png" alt="Behavioral Reconstruction Kit logo" width="176"></p>
-
-# Behavioral reconstruction kit
+<img src="https://raw.githubusercontent.com/IsaiahAnson/Behavioral-Reconstruction-Kit/main/assets/banner.svg" width="100%" alt="Behavioral Reconstruction Kit, a developer tool by Isaiah Anson. Check your rebuild against the original app. Runs in a real browser, Playwright, Node.js 22.">
 
 ![Two app windows connected by evidence checkpoints](assets/brk-hero.png)
 
