@@ -8,11 +8,11 @@ BRK checks the app you are building against the original. It runs the same steps
 
 ## Quick start
 
-Install Git, [Node.js](https://nodejs.org/) 22.19 or newer, and npm. With access to this private repository, run:
+Install Git, [Node.js](https://nodejs.org/) 22.19 or newer, and npm. Then run:
 
 ~~~sh
-git clone https://github.com/IsaiahAnson/behavioral-reconstruction-kit.git
-cd behavioral-reconstruction-kit
+git clone https://github.com/IsaiahAnson/BehavioralReconstructionKit.git
+cd BehavioralReconstructionKit
 npm ci
 npm run setup:browser
 npm run demo
@@ -80,3 +80,7 @@ Add **--trace** after **original** or **candidate** in a capture command to save
 For automation, call **node src/cli.js** directly: exit code 0 means pass, 2 means changed, 3 means unknown or open, and 1 means invalid input or a runtime error. On Windows, **npm run kit -- ...** may return npm's exit code 1 for any nonzero child result, so read the JSON status as well.
 
 See the [REA playbook](REA_PLAYBOOK.md) for the investigation workflow and the [tooling shortlist](TOOLING_SHORTLIST.md) for optional tools needed by particular targets.
+
+## License
+
+[PolyForm Noncommercial 1.0.0](LICENSE). You can use, change and share BRK for free, for any purpose that does not make money. Selling it, or using it in paid work, needs my written permission.
